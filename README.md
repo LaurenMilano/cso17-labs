@@ -14,9 +14,9 @@ First of all, please create a github account and accept the lab invitation given
 
 ```
 $ cd /home/cso/cso
-$ git clone https://github.com/nyu-cso-17fall/cso17-lab-YOUR_GITHUB_USER_NAME
+$ git clone https://github.com/nyu-cso-17fall/labs-YOUR_GITHUB_USER_NAME
   # For example, my user name is fegin and the command is like the next line.
-  # git clone https://github.com/nyu-cso-17fall/cso17-labs-fegin
+  # git clone https://github.com/nyu-cso-17fall/labs-fegin
 $ git remote add upstream https://github.com/nyu-cso-17fall/cso17-labs
 $ git pull upstream master
 $ git push
