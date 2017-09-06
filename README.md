@@ -2,7 +2,7 @@
 This repository contains cso labs skeleton code. You need to sync from the upstream (described below) before each lab to obtain the lates code. You will also use this repository to submit your code. The structure of this code submission is the same as recitation.
 
 ### Programming Environment
-You are required to do all recitation exercises and labs on the class virtual machine (based on Ubuntu Linux). To get the virtual machine running on your personal desktop or laptop, take the following steps (note that recitation exercises and labs share the same programming environment, you only have to this once).
+You are required to do all recitation exercises and labs on the class virtual machine (based on Ubuntu Linux). To get the virtual machine running on your personal desktop or laptop, take the following steps (note that recitation exercises and labs share the same programming environment, you only have to do this once).
 
 1. Download the [Virtualbox Version 5.1.26](https://www.virtualbox.org/wiki/Downloads) (Please just use version 5.1.26 and not any other version.) Choose the right binary to download according to the type of operating system running on your laptop.
 2. Download the class virtual machine image [here](http://news.cs.nyu.edu/~fegin/nyu-cso-17fall/ubuntu16.04.ova). This file is fairly large (>2GB), so you need to be patient.
