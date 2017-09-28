@@ -7,6 +7,7 @@ void
 set_to_five(int *ptr)
 {
 	ptr = 5;
+	assert(0);
 }
 
 // Return the sum of all elements in the given array.  The array
@@ -27,7 +28,7 @@ array_sum(int *arr, int n)
 		int sum = sum + arr[i];
 	}
 	assert(0);
-	return sum;
+	return -1;
 }
 
 
