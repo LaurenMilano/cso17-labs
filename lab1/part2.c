@@ -11,7 +11,11 @@ swap(int *p1, int *p2)
 	assert(p1 != 0);
 	assert(p2 != 0);
 
-	// TODO: Your code here.
+	int temp = p1; 
+	int temp2 = p2; 
+	p1 = temp2; 
+	p2 = temp;
+	
 	assert(0);
 }
 
@@ -24,6 +28,12 @@ swap(int *p1, int *p2)
 void
 bubble_sort(int *arr, int n)
 {
-        // TODO: Your code here.
+        for(int i = 0; i<n; i++){
+		if(arr[i] > arr[i+1]{
+			int temp = arr[i];
+			arr[i] = arr[i+1];
+			arr[i+1] = temp;
+		}
+		   }
         assert(0);
 }
