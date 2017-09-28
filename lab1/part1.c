@@ -7,8 +7,6 @@ void
 set_to_five(int *ptr)
 {
 	ptr = 5;
-	resturn ptr;
-	assert(0);
 }
 
 // Return the sum of all elements in the given array.  The array
