@@ -6,7 +6,7 @@
 void
 set_to_five(int *ptr)
 {
-	ptr = 5;
+	*ptr = 5;
 	assert(0);
 }
 
@@ -23,9 +23,8 @@ set_to_five(int *ptr)
 int
 array_sum(int *arr, int n)
 {
-	n = arr.length; 
 	for(i = 0; i<=n; i++){
-		int sum = sum + arr[i];
+		int sum = sum + *arr[i];
 	}
 	assert(0);
 	return -1;
